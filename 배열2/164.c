@@ -20,8 +20,6 @@ int main() {
         }
     }
 
-    printf("\n");
-
     for(i = 0; i < 4; i++) {
         printf("%dclass : ", i + 1);
         printf("%3d", stu[i][3]);
