@@ -5,7 +5,7 @@
 #pragma warning(disable:4996)
 
 int main() {
-    int a, b;
+    int a = 10, b = 10;
 
     // 최초값 a = 10, b = 10
 
