@@ -1,4 +1,5 @@
 // 1303 : 숫자사각형1
+
 /*
 사각형의 높이 n과 너비 m을 입력받은 후 
 n행 m열의 사각형 형태로 1부터 n*m번까지 숫자가 차례대로 출력되는 프로그램을 작성하시오.
@@ -20,5 +21,13 @@ n행 m열의 사각형 형태로 1부터 n*m번까지 숫자가 차례대로 출
 #pragma warning(disable:4996)
 
 int main() {
-    int num1, num2;
+    int n, m, i, j, num = 0;
+    scanf("%d %d", &n, &m);
+
+    for(i = 0; i < n; i++) {
+        for(j = 0; j < m; j++) {
+            printf("%d ", num++);
+        }
+        puts("");
+    }
 }
